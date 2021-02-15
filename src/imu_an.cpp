@@ -55,6 +55,7 @@ imu_callback( const sensor_msgs::ImuConstPtr& imu_msg )
     else
     {
         double time_min = ( time - start_t ) / 60;
+	ROS_INFO("in imu_callback; time_min = %f",time_min);
         if ( time_min > max_time_min )
             end = true;
     }

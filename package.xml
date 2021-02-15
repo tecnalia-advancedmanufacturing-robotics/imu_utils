@@ -51,6 +51,8 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depend>code_utils</build_depend>
+  <exec_depend>code_utils</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
